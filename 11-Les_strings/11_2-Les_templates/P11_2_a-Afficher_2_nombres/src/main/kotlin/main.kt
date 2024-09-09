@@ -1,3 +1,5 @@
 fun main() {
-    // put your code here
+    val a = 2
+    val b = 7
+    println("$a  $b")
 }
