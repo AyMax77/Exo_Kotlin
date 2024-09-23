@@ -4,7 +4,7 @@ class Rectangle {
 }
 
 fun printArea(rectangle: Rectangle) {
-    // ...
+    var result = rectangle.width * rectangle.height
 }
 
 fun main() {
