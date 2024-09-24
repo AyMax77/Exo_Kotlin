@@ -1,6 +1,5 @@
 // fix it
-class VinylStore(vinyl: String) {
-    val vinyl = vinyl
+class VinylStore(val vinyl: String) {
     fun printVinyl() {
         println(this.vinyl)
     }
