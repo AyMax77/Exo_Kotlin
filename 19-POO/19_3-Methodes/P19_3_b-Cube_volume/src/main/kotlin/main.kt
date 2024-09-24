@@ -1,6 +1,11 @@
 class Box(var height: Double, var width: Double, var length: Double) {
-
-    // write the getVolume method here
+    fun getVolume():Double{
+        var height = height
+        var width = width
+        var length = length
+        var result = height*width*length
+        return result
+    }
 }
 
 
